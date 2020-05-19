@@ -1,9 +1,10 @@
 import React from "react";
+import Header from "../components/Header";
 
 const HomePage = () => {
     return(
         <div>
-            Home Page
+            <Header title="My Portfolio" subtitle="Siddharth Rao"/>
         </div>
     )
 }
