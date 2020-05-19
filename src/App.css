@@ -38,6 +38,21 @@ nav a:hover {
 }
 
 .page-body {
-    padding: 10px;
+    padding: 10px 30px;
 }
 
+.inline {
+    display: inline-flex;
+}
+
+.project-image {
+    border-radius: 5px;
+}
+
+.image-div {
+    padding-right: 10px;
+}
+
+.project-title {
+    font-size: 23px;
+}
