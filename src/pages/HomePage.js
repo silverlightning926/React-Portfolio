@@ -8,9 +8,8 @@ import SkillsPanel from "../components/SkillsPanel";
 
 const HomePage = () => {
     return(
-        <div>
-
-            <Header title="My Portfolio" subtitle="Siddharth Rao"/>
+        <>
+            <Header title="My Portfolio"/>
 
             <div className="page-body">
 
@@ -37,7 +36,7 @@ const HomePage = () => {
                     }
                 />
             </div>
-        </div>
+        </>
     )
 }
 
