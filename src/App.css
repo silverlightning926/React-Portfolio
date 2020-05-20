@@ -12,6 +12,7 @@ nav {
     top: 0;
     width: 100%;
     background: #1abc9c;
+    z-index: 2;
 }
 
 nav ul {
@@ -58,7 +59,7 @@ nav a:hover {
 }
 
 .seeMoreButton {
-    margin: 20px 10px;
+    margin: 20px 15px;
     background-color: #1abc9c;
     border-radius:28px;
     border:1px solid #18ab29;
@@ -117,7 +118,7 @@ nav a:hover {
     height: 25px;
     right: -17px;
     background-color: white;
-    border: 4px solid #1abc9c;
+    border: 4px solid #3aceb1;
     top: 15px;
     border-radius: 50%;
     z-index: 1;
@@ -142,9 +143,9 @@ nav a:hover {
     width: 0;
     z-index: 1;
     right: 30px;
-    border: medium solid #1abc9c;
+    border: medium solid #3aceb1;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent #1abc9c;
+    border-color: transparent transparent transparent #3aceb1;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -156,9 +157,9 @@ nav a:hover {
     width: 0;
     z-index: 1;
     left: 30px;
-    border: medium solid #1abc9c;
+    border: medium solid #3aceb1;
     border-width: 10px 10px 10px 0;
-    border-color: transparent #1abc9c transparent transparent;
+    border-color: transparent #3aceb1 transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -169,7 +170,7 @@ nav a:hover {
 /* The actual content */
 .content {
     padding: 20px 30px;
-    background-color: #1abc9c;
+    background-color: #3aceb1;
     position: relative;
     border-radius: 6px;
 }
@@ -191,9 +192,9 @@ nav a:hover {
     /* Make sure that all arrows are pointing leftwards */
     .container::before {
         left: 60px;
-        border: medium solid #1abc9c;
+        border: medium solid #3aceb1;
         border-width: 10px 10px 10px 0;
-        border-color: transparent #1abc9c transparent transparent;
+        border-color: transparent #3aceb1 transparent transparent;
     }
 
     /* Make sure all circles are at the same spot */
