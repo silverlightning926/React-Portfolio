@@ -10,7 +10,7 @@ const projects =
             ],
             linkPoints: [
                 {
-                    name: "Git",
+                    name: "Portfolio Repo - Github",
                     link: "https://github.com"
                 }
             ],
@@ -18,7 +18,7 @@ const projects =
         },
 
         {
-            img: 'virtualVisonariesProjectImage',
+            img: 'virtualVisionariesProjectImage',
             title: 'Virtual Visionaries',
             bulletPoints: [
                 "Made With Flutter",
@@ -26,12 +26,29 @@ const projects =
             ],
             linkPoints: [
                 {
-                    name: "Git",
+                    name: "Virtual Visionaries Repo - Github",
                     link: "https://github.com"
                 }
             ],
             topProjects: true
-        }
+        },
+
+        {
+            img: 'duvallDays2019ProjectImage',
+            title: 'Duvall Days 2019',
+            bulletPoints: [
+                "Made With Unity",
+                "More than a 100 downloads from the public",
+                "First App I Published To The App Store"
+            ],
+            linkPoints: [
+                {
+                    name: "Duvall Days 2019 on Google Play",
+                    link: "https://play.google.com"
+                }
+            ],
+            topProjects: true
+        },
     ]
 
 export default projects;
