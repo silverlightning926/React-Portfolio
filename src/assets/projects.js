@@ -13,7 +13,8 @@ const projects =
                     name: "Git",
                     link: "https://github.com"
                 }
-            ]
+            ],
+            topProjects: true
         },
 
         {
@@ -28,7 +29,8 @@ const projects =
                     name: "Git",
                     link: "https://github.com"
                 }
-            ]
+            ],
+            topProjects: true
         }
     ]
 
