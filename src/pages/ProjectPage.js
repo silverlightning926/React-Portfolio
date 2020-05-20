@@ -9,7 +9,7 @@ const ProjectPage = () => {
             <Header title= "Projects"/>
             <div className="page-body">
                 <ProjectList
-                    title="Top Projects"
+                    title="Projects"
                     projects={projects}
                 />
             </div>
