@@ -6,7 +6,8 @@ import CardList from "../components/CardList";
 import Timeline from "../components/Timeline";
 import SkillsPanel from "../components/SkillsPanel";
 
-class HomePage extends Component{
+class HomePage extends Component
+{
 
     componentDidMount() {
         window.scrollTo(0,0);
