@@ -5,7 +5,7 @@ const projects =
             img: 'portfolioProjectImage',
             title: 'Portfolio',
             bulletPoints: [
-                "Made With React",
+                "React - JSX, CSS & HTML",
                 "Tracked With Git"
             ],
             linkPoints: [
@@ -21,7 +21,7 @@ const projects =
             img: 'virtualVisionariesProjectImage',
             title: 'Virtual Visionaries',
             bulletPoints: [
-                "Made With Flutter",
+                "Flutter - Dart",
                 "Uses Agora as Backend Service"
             ],
             linkPoints: [
@@ -34,10 +34,27 @@ const projects =
         },
 
         {
+            img: 'stealth2020ProjectImage',
+            title: 'Stealth Robotics (FRC 4089) 2020 Software',
+            bulletPoints: [
+                "WPILib - Java",
+                "Command Based",
+                "Team Project"
+            ],
+            linkPoints: [
+                {
+                    name: "Virtual Visionaries Repo - Github",
+                    link: "https://github.com"
+                }
+            ],
+            topProjects: false
+        },
+
+        {
             img: 'duvallDays2019ProjectImage',
             title: 'Duvall Days 2019',
             bulletPoints: [
-                "Made With Unity",
+                "Unity - C#",
                 "More than a 100 downloads from the public",
                 "First App I Published To The App Store"
             ],
