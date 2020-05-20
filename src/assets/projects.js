@@ -47,7 +47,7 @@ const projects =
                     link: "https://play.google.com"
                 }
             ],
-            topProjects: true
+            topProjects: false
         },
     ]
 
