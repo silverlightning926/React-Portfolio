@@ -13,7 +13,22 @@ const HomePage = () => {
 
             <div className="page-body">
 
-                <SkillsPanel images={["flutterLogo", "nodeLogoProjectImage", "reactLogo", "unityLogo", "gitLogo", "githubLogo"]}/>
+                <SkillsPanel
+                    images={
+                        [
+                            {filePath: "flutterLogo", link: "https://flutter.dev/"},
+                            {filePath: "nodeLogoProjectImage", link: "https://nodejs.org/"},
+                            {filePath: "reactLogo", link: "https://reactjs.org/"},
+                            {filePath: "unityLogo", link: "https://unity.com/"},
+                            {filePath: "gitLogo", link: "https://git-scm.com/"},
+                            {filePath: "githubLogo", link: "https://github.com/"},
+                            {filePath: "javaLogo", link: "https://www.java.com/en/"},
+                            {filePath: "C++Logo", link: "https://www.cplusplus.com/"},
+                            {filePath: "CSharpLogo", link: "https://docs.microsoft.com/en-us/dotnet/csharp/"},
+                            {filePath: "JavascriptLogo", link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"}
+                        ]
+                    }
+                />
 
                 <CardList
                     title="Top Projects"
