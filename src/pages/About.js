@@ -25,6 +25,7 @@ class About extends Component
                     </p>
 
                     <h1>Links</h1>
+                        
                     <ul>
                         <li><a href="https://github.com/silverlightning926">Github</a></li>
                         <li><a href="https://stackoverflow.com/users/10915344/silverlightning">Stack Overflow</a></li>
