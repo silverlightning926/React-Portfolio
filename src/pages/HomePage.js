@@ -2,7 +2,7 @@ import React from "react";
 import projects from "../assets/projects";
 import {Link} from "react-router-dom";
 import Header from "../components/Header";
-import ProjectList from "../components/ProjectList";
+import CardList from "../components/CardList";
 import Timeline from "../components/Timeline";
 import SkillsPanel from "../components/SkillsPanel";
 
@@ -13,11 +13,12 @@ const HomePage = () => {
 
             <div className="page-body">
 
-                <SkillsPanel images={["flutterLogo", "reactLogo", "unityLogo", "gitLogo", "githubLogo"]}/>
+                <SkillsPanel images={["flutterLogo", "nodeLogoProjectImage", "reactLogo", "unityLogo", "gitLogo", "githubLogo"]}/>
 
-                <ProjectList
+                <CardList
                     title="Top Projects"
                     projects={projects.filter(project => project.topProjects === true)}
+                    imgSize={350}
                 />
 
                 <Link to="/projects" className="seeMoreButton">All Projects</Link>
