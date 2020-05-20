@@ -1,18 +1,19 @@
 import React from "react";
-import ProjectItem from "./ProjectItem";
+import Card from "./Card";
 
-const ProjectList = ({title, projects}) => {
+const CardList = ({title, projects, imgSize}) => {
     return (
         <>
             <h1>{title}</h1>
             {
                 projects.map((project, key) =>
-                    <ProjectItem
+                    <Card
                         key={key}
                         img={project.img}
                         title={project.title}
                         bulletPoints={project.bulletPoints}
                         linkPoints={project.linkPoints}
+                        imgSize={imgSize}
                     />
                 )
             }
@@ -20,4 +21,4 @@ const ProjectList = ({title, projects}) => {
     )
 }
 
-export default ProjectList;
+export default CardList;

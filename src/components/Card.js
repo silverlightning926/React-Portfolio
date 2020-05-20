@@ -1,12 +1,12 @@
 import React from "react";
 
-const ProjectItem = ({img, title, bulletPoints, linkPoints}) => {
+const Card = ({img, title, bulletPoints, linkPoints, imgSize}) => {
     return (
         <>
             <div style={{"paddingLeft" : "20px", "paddingTop" : "20px"}}>
                 <div className="inline">
                     <div className="image-div">
-                        <img className="project-image" width="350px" src={require(`../assets/images/projectImages/${img}.svg`)} alt=""/>
+                        <img className="project-image" width={`${imgSize}px`} src={require(`../assets/images/projectImages/${img}.svg`)} alt=""/>
                     </div>
                     <div className="">
                         <h3 className="project-title">{title}</h3>
@@ -43,4 +43,4 @@ const ProjectItem = ({img, title, bulletPoints, linkPoints}) => {
     )
 }
 
-export default ProjectItem;
+export default Card;
