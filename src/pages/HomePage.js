@@ -1,9 +1,10 @@
 import React from "react";
-import Header from "../components/Header";
-import ProjectList from "../components/ProjectList";
 import projects from "../assets/projects";
 import {Link} from "react-router-dom";
+import Header from "../components/Header";
+import ProjectList from "../components/ProjectList";
 import Timeline from "../components/Timeline";
+import SkillsPanel from "../components/SkillsPanel";
 
 const HomePage = () => {
     return(
@@ -12,6 +13,9 @@ const HomePage = () => {
             <Header title="My Portfolio" subtitle="Siddharth Rao"/>
 
             <div className="page-body">
+
+                <SkillsPanel images={["flutterLogo", "reactLogo", "unityLogo", "gitLogo", "githubLogo"]}/>
+
                 <ProjectList
                     title="Top Projects"
                     projects={projects.filter(project => project.topProjects === true)}

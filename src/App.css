@@ -207,3 +207,8 @@ nav a:hover {
         left: 0%;
     }
 }
+
+.center-image {
+    margin: auto;
+    width: 817px;
+}
