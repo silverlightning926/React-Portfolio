@@ -1,20 +1,20 @@
-# Portfolio
+# Portfolio 📖
 
 This is a portfolio made in React. It showcases my current and most notable projects and skills.
 
 ## Features
 
-- Multiple Pages : 
+- Multiple Pages 📄	 : 
 
 - Modularized With Components. Components are reused when needed
 
-## Use 
+## Use 💻
 
 Use the following command to run a local version of the website : 
 
 `npm start`
 
-## Pages
+## Pages 📄	
 
 - Home Page
 - Project Page
