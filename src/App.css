@@ -194,8 +194,9 @@ nav a:hover {
 }
 
 .center-image {
-    margin: auto;
-    width: 1259px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 input[type=text], select, textarea {
