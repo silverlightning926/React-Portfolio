@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 class Contact extends Component
 {
@@ -57,6 +58,7 @@ class Contact extends Component
                         <input type="submit" value="Submit"/>
                     </form>
                 </div>
+                <Footer/>
             </>
         )
     }

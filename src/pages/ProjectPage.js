@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import projects from "../assets/projects";
 import CardList from "../components/CardList";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 class ProjectPage extends Component {
 
@@ -20,6 +21,7 @@ class ProjectPage extends Component {
                         imgSize={350}
                     />
                 </div>
+                <Footer/>
             </>
         )
     }

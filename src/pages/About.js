@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 class About extends Component
 {
@@ -31,6 +32,7 @@ class About extends Component
                         <li><a href="https://stackoverflow.com/users/10915344/silverlightning">Stack Overflow</a></li>
                     </ul>
                 </div>
+                <Footer/>
             </>
         )
     }

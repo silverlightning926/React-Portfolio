@@ -5,6 +5,7 @@ import Header from "../components/Header";
 import CardList from "../components/CardList";
 import Timeline from "../components/Timeline";
 import SkillsPanel from "../components/SkillsPanel";
+import Footer from "../components/Footer";
 
 class HomePage extends Component
 {
@@ -59,6 +60,8 @@ class HomePage extends Component
                         }
                     />
                 </div>
+
+                <Footer/>
             </>
         )
     }
